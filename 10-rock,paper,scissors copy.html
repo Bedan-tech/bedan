@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="function.css">
+     
+</head>
+<body class="rocky">
+    
+    <h1 style="font-weight: bold;">Rules on Rock Paper Scissors</h1>
+    <button class="butto"  onclick="
+ parameter1('rock');
+    "    ><img src="images\Untitled-1-removebg-preview.png" alt="rock"class="rocky"  ></button>
+
+    <button class="butto"  onclick="
+     parameter1('paper');
+    "    ><img src="images\untitled-3-removebg-preview.png" alt="paper"class="rocky"    ></button>
+    <button class="butto"  onclick="
+   
+    parameter1('scissors');
+    "   ><img src="images\untitled-2-removebg-preview.png" alt="scissors" class="rocky"  ></button>
+
+    <p class="worse winners"> </p>
+    <p class="night">
+       
+    </p>
+    <p class="maina score"></p>
+    <button    onclick="
+    score.wins = 0;
+      score.ties = 0;
+        score.losses= 0;
+        localStorage.removeItem('score');
+        updateElement();
+    " class="resets">Reset scores</button>
+    <script src="10-rock,paper,scissors.js"></script>
+</body>
+</html>
